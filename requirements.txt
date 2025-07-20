@@ -1,4 +1,8 @@
 Flask==2.3.3
 qrcode==7.4.2
 Pillow==10.2.0
+<<<<<<< HEAD
 gunicorn
+=======
+gunicorn
+>>>>>>> 1388c3e (Pin Python 3.10 via runtime.txt and upgrade build tools)
