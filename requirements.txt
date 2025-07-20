@@ -1,4 +1,3 @@
---upgrade pip setuptools wheel
 Flask==2.3.3
 qrcode==7.4.2
 Pillow==10.2.0
