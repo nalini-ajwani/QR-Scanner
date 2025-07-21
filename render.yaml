@@ -1,7 +1,7 @@
 services:
   - type: web
     name: QR-Scanner
-    runtime: python
+    env: python
     plan: free
     region: oregon
     buildCommand: |
