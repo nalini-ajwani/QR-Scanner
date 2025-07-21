@@ -111,7 +111,7 @@ def profile(person_id):
         return "Profile not found.", 404
     return render_template('profile.html', person=person)
 
-if __name__ == '__main__':
-    init_db()
-    app.run(debug=True)
+init_db()
 
+if __name__ == '__main__':
+    app.run(debug=True)
